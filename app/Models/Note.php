@@ -9,6 +9,7 @@ class Note extends Model
 {
     use HasFactory;
     
+    // Permite asignación masiva para estos campos
     protected $fillable = [
         'title',
         'author',
